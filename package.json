@@ -36,7 +36,6 @@
     "astro": "^7.4.5",
     "basic-ftp": "^6.2.5",
     "cheerio": "^1.2.0",
-    "chromium": "^3.0.3",
     "cors": "^2.8.6",
     "d3-color": "^3.1.1",
     "dotenv": "^18.0.9",
@@ -79,8 +78,7 @@
     "yaml": "^2.8.3",
     "minimatch": "11.0.1",
     "tmp": "0.2.7",
-    "deepmerge": "npm:@stackline/deepmerge@1.1.0",
-    "extract-zip": "npm:@electron-internal/extract-zip@1.0.6"
+    "deepmerge": "npm:@stackline/deepmerge@1.1.0"
   },
   "devDependencies": {
     "@astrojs/cloudflare": "^14.4.4",
