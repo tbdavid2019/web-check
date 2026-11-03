@@ -18,7 +18,8 @@
     "lint": "eslint --config .config/eslint.config.js .",
     "format:check": "prettier --check --ignore-unknown '!yarn.lock' '!**/*.md' .",
     "format:fix": "prettier --write --ignore-unknown '!yarn.lock' '!**/*.md' .",
-    "hold-my-beer": "yarn format:fix && yarn lint && yarn typecheck"
+    "hold-my-beer": "yarn format:fix && yarn lint && yarn typecheck",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.12",
@@ -43,6 +44,7 @@
     "express": "^5.3.0",
     "express-rate-limit": "^8.7.3",
     "framer-motion": "^14.9.0",
+    "patch-package": "8.0.1",
     "path-to-regexp": "^9.0.0",
     "picomatch": "^4.0.7",
     "prop-types": "^15.8.1",
@@ -78,7 +80,8 @@
     "uuid": "^14.0.0",
     "yaml": "^2.8.3",
     "minimatch": "11.0.1",
-    "tmp": "0.2.6"
+    "tmp": "0.2.7",
+    "deepmerge": "npm:@stackline/deepmerge@1.1.0"
   },
   "devDependencies": {
     "@astrojs/cloudflare": "^14.4.4",
